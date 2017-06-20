@@ -1,0 +1,27 @@
+{
+  "name": "3ds-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src --out-dir lib&& node ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarnadas/3ds-image.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tarnadas/3ds-image/issues"
+  },
+  "homepage": "https://github.com/Tarnadas/3ds-image#readme",
+  "dependencies": {
+    "jimp": "^0.2.28"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.5.2"
+  }
+}
